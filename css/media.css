@@ -1,0 +1,49 @@
+@media only screen and (min-width: 1300px){
+    .section-container{
+        width: 75%;
+    }
+}
+@media only screen and (max-width: 992px){
+    .theNavbar ul::after{
+        content: '';
+        width: 100%;
+        height: 0.1px;
+        background-color: rgba(107, 107, 107, 0.284);
+        position: absolute;
+        top: 65px;
+        left: 0;
+    }
+    .mtop{
+        margin-top: 20px;
+    }
+    .theNavbar a{
+        display: inline-block;
+        }
+
+}
+@media only screen and (min-width: 768px){
+    .text-animation-theHeader{
+        font-size: 3.5rem;
+    }
+}
+@media only screen and (max-width: 768px){
+    .section-theAbout-type{
+        margin-top: 45px;
+    }
+}
+@media only screen and (max-width: 600px){
+
+    .text-animation-theHeader{
+        font-size: 2rem;
+    }
+    .sheets-but a{
+        margin-bottom: 10px;
+    }
+}
+@media only screen and (max-width: 365px){
+    .section-theServices-h3 h3{
+        font-size: 2rem;
+    }
+}
+
+
